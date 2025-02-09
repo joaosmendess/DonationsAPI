@@ -1,0 +1,49 @@
+# Logs
+*.log
+
+# Diretórios gerados
+bin/
+obj/
+publish/
+
+# Diretório do Visual Studio
+.vs/
+
+# Configurações de usuário e IDE
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache do NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Arquivos de backup
+*.bak
+*.swp
+
+# Chaves ou segredos sensíveis
+secrets.json
+
+# Configurações do Rider/JetBrains
+.idea/
+*.iml
+
+# Arquivos gerados por build
+*.dll
+*.pdb
+*.exe
+*.app
+*.so
+*.dylib
+
+# Configurações específicas do projeto
+wwwroot/
+.env
